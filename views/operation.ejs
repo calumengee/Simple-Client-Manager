@@ -1,0 +1,25 @@
+<%- include('partials/header') -%>
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <a class="navbar-brand text-center" href="#">Client Management Sutygon Ltd.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-link" href="#">Dashboard </a>
+      <a class="nav-link" href="#">Order</a>
+      <a class="nav-link" href="#">Inventory</a>
+      <a class="nav-link active" href="/operation"><span class="sr-only">(current)</span>Operation</a>
+    </div>
+  </div>
+  </nav>
+  <div class='container'>
+    <button type="button" onclick="window.location.href='/eod';" class="btn btn-danger btn-lg btn-block">END OF BUSSINESS DAY</button>
+  </div>
+</body>
+
+<%- include('partials/footer') -%>
+<script type="text/javascript" src='/js/operation.js'></script>
+</html>
